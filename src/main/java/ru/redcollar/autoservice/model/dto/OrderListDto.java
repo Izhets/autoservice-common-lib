@@ -1,4 +1,4 @@
-package ru.redcollar.autoservicecommonlib.model.dto;
+package ru.redcollar.autoservice.model.dto;
 
 import lombok.*;
 

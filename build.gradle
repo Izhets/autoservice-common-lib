@@ -4,7 +4,7 @@ plugins {
     id 'java'
 }
 
-group = 'ru.redcollar'
+group = 'ru.redcollar.autoservice'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
