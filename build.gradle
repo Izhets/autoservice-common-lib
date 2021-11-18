@@ -26,6 +26,19 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+
+    implementation group: 'io.swagger.core.v3', name: 'swagger-core', version: '2.1.11'
+    implementation group: 'io.swagger.core.v3', name: 'swagger-annotations', version: '2.1.11'
+    implementation group: 'org.springdoc', name: 'springdoc-openapi-ui', version: '1.5.10'
+
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.5.5'
+    implementation group: 'org.springframework.security', name: 'spring-security-core', version: '5.5.3'
+
+    implementation 'org.keycloak:keycloak-spring-boot-starter:15.0.2'
+    implementation 'org.keycloak.bom:keycloak-adapter-bom:15.0.2'
+    implementation 'org.keycloak:keycloak-admin-client:15.0.2'
 }
 
 test {
